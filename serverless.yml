@@ -85,6 +85,10 @@ functions:
         Resource: "arn:aws:s3:::${self:provider.environment.ATTACHMENT_S3_BUCKET}/*"
       - Effect: Allow
         Action:
+          - s3:GetObject
+        Resource: "arn:aws:s3:::${self:provider.environment.THUMBNAILS_S3_BUCKET}/*"        
+      - Effect: Allow
+        Action:
           - xray:PutTraceSegments
         Resource: "*"
 
@@ -181,6 +185,10 @@ functions:
         Action:
           - s3:DeleteObject
         Resource: "arn:aws:s3:::${self:provider.environment.ATTACHMENT_S3_BUCKET}/*"
+      - Effect: Allow
+        Action:
+          - s3:DeleteObject
+        Resource: "arn:aws:s3:::${self:provider.environment.THUMBNAILS_S3_BUCKET}/*"         
       - Effect: Allow
         Action:
           - xray:PutTraceSegments

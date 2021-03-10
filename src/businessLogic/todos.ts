@@ -17,7 +17,7 @@ export async function getAllTodos(userId: string, nextKey: Key, limit: number): 
 
     for (let item of items.todoItems) {
         if (!!item['attachmentUrl'])
-            item['attachmentUrl'] = fileAccess.getDownloadUrl(item['attachmentUrl'])
+            item['attachmentUrl'] = fileAccess.getDownlThumbUrl(item['attachmentUrl'])
     }
 
     return items

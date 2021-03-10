@@ -45,7 +45,7 @@ async function processImage(record: S3EventRecord) {
   await s3
     .putObject({
       Bucket: thumbnailBucketName,
-      Key: `${key}.jpeg`,
+      Key: key,
       Body: convertedBuffer
     })
     .promise()
