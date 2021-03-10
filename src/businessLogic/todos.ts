@@ -23,6 +23,20 @@ export async function getAllTodos(userId: string, nextKey: Key, limit: number): 
     return items
 }
 
+export async function getUncompleteTodos(userId: string, nextKey: Key, limit: number): Promise<PageableTodoItems> {
+    const items = await todoAccess.getUncompleteTodos(userId, nextKey, limit)
+
+    for (let item of items.todoItems) {
+
+
+        if (!!item['attachmentUrl'])
+            item['attachmentUrl'] = fileAccess.getDownlThumbUrl(item['attachmentUrl'])
+        
+    }
+
+    return items
+}
+
 export async function createTodo(
     createTodoRequest: CreateTodoRequest,
     userId: string

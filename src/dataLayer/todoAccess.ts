@@ -47,6 +47,34 @@ export class TodoAccess {
     return { todoItems: items, lastEvaluatedKey: result.LastEvaluatedKey }
   }
 
+  async getUncompleteTodos(userId: string, nextKey: Key, limit: number): Promise<PageableTodoItems> {
+    console.log('Get actual todos of user')
+
+    const isDone: boolean = false;
+    console.log('isDone: ' + isDone)
+    const result = await  docClient.query({
+      TableName: this.todosTable,
+      IndexName: this.userIdIndex,
+      KeyConditionExpression: 'userId = :userId',
+      ExpressionAttributeValues: {
+        ':userId': userId,
+        ':done' :  isDone
+      //  ':done' :  false
+      },
+
+      FilterExpression: 'attribute_not_exists(done) OR done = :done',
+
+      
+      //ScanIndexForward: false,
+      Limit: limit,
+      ExclusiveStartKey: nextKey
+    }).promise()
+
+    const items = result.Items as TodoItem[]
+    return { todoItems: items, lastEvaluatedKey: result.LastEvaluatedKey }
+  }
+
+
   async createTodo(newItem: TodoItem): Promise<TodoItem> {
     await  docClient.put({
       TableName: this.todosTable,
