@@ -8,7 +8,10 @@ Data: Marth 18 2021
 ```
 ## Screenshots
 
-
+<img width="416" alt="Screen Shot 2021-03-21 at 9 52 47 PM" src="https://user-images.githubusercontent.com/67039993/112039111-6daaef80-8b22-11eb-8b4e-4281966c50ad.png">
+<img width="337" alt="Screen Shot 2021-03-21 at 9 55 39 PM" src="https://user-images.githubusercontent.com/67039993/112039300-aa76e680-8b22-11eb-8bec-849e110991cb.png">
+<img width="247" alt="Screen Shot 2021-03-21 at 9 54 11 PM" src="https://user-images.githubusercontent.com/67039993/112039369-bd89b680-8b22-11eb-9af9-6eeb3bd21a38.png">
+<img width="380" alt="Screen Shot 2021-03-21 at 9 55 13 PM" src="https://user-images.githubusercontent.com/67039993/112039394-c24e6a80-8b22-11eb-9306-5a41307d4723.png">
 
 ## Git repositoryes: 
 
@@ -48,7 +51,7 @@ Result of tests from the collection:
 <img width="1222" alt="Screen Shot 2021-03-20 at 5 29 02 PM" src="https://user-images.githubusercontent.com/67039993/112038966-3b998d80-8b22-11eb-82a6-9781364f114d.png">
 <img width="1271" alt="Screen Shot 2021-03-20 at 5 29 18 PM" src="https://user-images.githubusercontent.com/67039993/112039041-53711180-8b22-11eb-89a5-3c6c2efaa652.png">
 <img width="1274" alt="Screen Shot 2021-03-20 at 5 29 39 PM" src="https://user-images.githubusercontent.com/67039993/112039069-5ec43d00-8b22-11eb-8c95-aff4fc41b14d.png">
-<img width="416" alt="Screen Shot 2021-03-21 at 9 52 47 PM" src="https://user-images.githubusercontent.com/67039993/112039111-6daaef80-8b22-11eb-8b4e-4281966c50ad.png">
+
 
 ## How to run the application
 To deploy an application run the following commands:
