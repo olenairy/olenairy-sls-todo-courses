@@ -7,8 +7,8 @@ Project: Serverless TODO Application
 Data: Marth 18 2021
 ```
 ## Screenshots
-<img width="1266" alt="Screen Shot 2021-03-21 at 6 55 38 PM" src="https://user-images.githubusercontent.com/67039993/112038734-fecd9680-8b21-11eb-82be-c166c766ee03.png">
-<img width="1266" alt="Screen Shot 2021-03-21 at 6 55 38 PM" src="https://user-images.githubusercontent.com/67039993/112038811-11e06680-8b22-11eb-9779-10109d013eeb.png">
+
+
 
 ## Git repositoryes: 
 
@@ -42,8 +42,13 @@ Data is stored in a table with a composite key. Scan operation is not used to re
 
 ## Testing 
 Link to Postman collection of tests:
-Result of tests from the collection:
 
+Result of tests from the collection:
+<img width="1266" alt="Screen Shot 2021-03-21 at 6 55 38 PM" src="https://user-images.githubusercontent.com/67039993/112038811-11e06680-8b22-11eb-9779-10109d013eeb.png">
+<img width="1222" alt="Screen Shot 2021-03-20 at 5 29 02 PM" src="https://user-images.githubusercontent.com/67039993/112038966-3b998d80-8b22-11eb-82a6-9781364f114d.png">
+<img width="1271" alt="Screen Shot 2021-03-20 at 5 29 18 PM" src="https://user-images.githubusercontent.com/67039993/112039041-53711180-8b22-11eb-89a5-3c6c2efaa652.png">
+<img width="1274" alt="Screen Shot 2021-03-20 at 5 29 39 PM" src="https://user-images.githubusercontent.com/67039993/112039069-5ec43d00-8b22-11eb-8c95-aff4fc41b14d.png">
+<img width="416" alt="Screen Shot 2021-03-21 at 9 52 47 PM" src="https://user-images.githubusercontent.com/67039993/112039111-6daaef80-8b22-11eb-8b4e-4281966c50ad.png">
 
 ## How to run the application
 To deploy an application run the following commands:
