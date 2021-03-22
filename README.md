@@ -29,15 +29,14 @@ For my Capstone Project I chose Serverless technology because that enable me to 
 ## Functionality
 <b>Pretty ToDos App</b> keep the ToDo list and shows them beautifully. Allows users to update images, edit text and Due Date.
 User of the web application can use the interface to create, delete and complete ToDos. The application allows users to upload a file. User of the web interface can click on a "image" button, then select and upload a file.
-</br><img width="250" alt="Edit-Image_Delete_Button" src="https://user-images.githubusercontent.com/67039993/112071447-892bef80-8b4e-11eb-9689-51310f5de05a.png">
+</br><img width="250" alt="Edit-Image_Delete_Button" src="https://user-images.githubusercontent.com/67039993/112071447-892bef80-8b4e-11eb-9689-51310f5de05a.png"></br>
 After that the file is being process to convert to thumbnails picture. Was created additional AttachmentsBucket for storage small pictures.  File appear in the Todo properties on the home page. Pictures deleted from two backets - AttachmentsBucket and ThumbnailsBucket after delete ToDo item. 
-![001-capst](https://user-images.githubusercontent.com/67039993/112071670-12432680-8b4f-11eb-91b6-d2b0caaca207.png)
-
+</br><img width="250" alt="ThumbnailsBucket" src="https://user-images.githubusercontent.com/67039993/112071670-12432680-8b4f-11eb-91b6-d2b0caaca207.png"></br>
 User of the web interface can click on a "pencil" button, then edit Todo and Due Date.
-</br><img width="250" alt="Edit-Image_Delete_Button" src="https://user-images.githubusercontent.com/67039993/112070945-92688c80-8b4d-11eb-94c2-8c0fa045fe0f.png">
+</br><img width="250" alt="Edit-Image_Delete_Button" src="https://user-images.githubusercontent.com/67039993/112070945-92688c80-8b4d-11eb-94c2-8c0fa045fe0f.png"></br>
 
 The application only displays list of ToDo for a logged in user. Authentication is implemented and does not allow unauthenticated access.
-</br><img width="300" alt="Screen Shot 2021-03-22 at 7 00 35 PM" src="https://user-images.githubusercontent.com/67039993/112071854-6b12bf00-8b4f-11eb-92f6-86fe6c7490dc.png">
+</br><img width="250" alt="Screen Shot 2021-03-22 at 7 00 35 PM" src="https://user-images.githubusercontent.com/67039993/112071854-6b12bf00-8b4f-11eb-92f6-86fe6c7490dc.png"></br>
 
 
 ## Screenshots show the successful build and deploy steps
