@@ -11,10 +11,10 @@ Data: Marth 18 2021
 
 ## Git repositoryes: 
 
-### Buckend of project:
+### Buckend:
 https://github.com/olenairy/olenairy-sls-todo-courses.git
 
-### Frontend of project:
+### Frontend:
 https://github.com/olenairy/olenairy-sls-todo-courses-client.git
 
 ## Architecture Diagram
@@ -33,6 +33,9 @@ After that the file is being process to convert to thumbnails picture. Was creat
 User of the web interface can click on a "pencil" button, then edit Todo and Due Date.
 The application only displays list of ToDo for a logged in user. Authentication is implemented and does not allow unauthenticated access.
 (smal demo fragment)
+
+## Screenshots show the successful build and deploy steps
+
 ## Codebase
 The code is split into multiple layers separating business logic from code for DynamoDB access, file storage, and other code. Code is implemented using async/await and Promises without using callbacks.
 (smal demo fragment)
