@@ -23,7 +23,11 @@ export const handler: SNSHandler = async (event: SNSEvent) => {
     }
   }
 }
-
+/**
+ * 
+ * Resize image 
+ * Get image from one backet, resize and put small image to other backet
+ */
 async function processImage(record: S3EventRecord) {
   const key = record.s3.object.key
   console.log('Processing S3 item with key: ', key)
