@@ -1,5 +1,5 @@
 # My Pretty ToDos App
-## Capstone Project
+### Capstone Project
 ```
 Student: Olena Chudnovets
 Course: Cloud Developer
@@ -7,6 +7,8 @@ Project: Serverless TODO Application
 Data: Marth 18 2021
 ```
 ## Screenshots
+<img width="1266" alt="Screen Shot 2021-03-21 at 6 55 38 PM" src="https://user-images.githubusercontent.com/67039993/112038734-fecd9680-8b21-11eb-82be-c166c766ee03.png">
+<img width="1266" alt="Screen Shot 2021-03-21 at 6 55 38 PM" src="https://user-images.githubusercontent.com/67039993/112038811-11e06680-8b22-11eb-9779-10109d013eeb.png">
 
 ## Git repositoryes: 
 
