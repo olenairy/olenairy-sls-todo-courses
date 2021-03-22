@@ -7,9 +7,9 @@ Project: Serverless TODO Application
 Data: Marth 18 2021
 ```
 ## Screenshots
-
-<img width="416" alt="Screen Shot 2021-03-21 at 9 52 47 PM" src="https://user-images.githubusercontent.com/67039993/112039111-6daaef80-8b22-11eb-8b4e-4281966c50ad.png">
-<img width="337" alt="Screen Shot 2021-03-21 at 9 55 39 PM" src="https://user-images.githubusercontent.com/67039993/112039300-aa76e680-8b22-11eb-8bec-849e110991cb.png">
+<div><img width="416" alt="Screen Shot 2021-03-21 at 9 52 47 PM" src="https://user-images.githubusercontent.com/67039993/112039111-6daaef80-8b22-11eb-8b4e-4281966c50ad.png"></div>
+<div>
+<img width="337" alt="Screen Shot 2021-03-21 at 9 55 39 PM" src="https://user-images.githubusercontent.com/67039993/112039300-aa76e680-8b22-11eb-8bec-849e110991cb.png"></div>
 <img width="247" alt="Screen Shot 2021-03-21 at 9 54 11 PM" src="https://user-images.githubusercontent.com/67039993/112039369-bd89b680-8b22-11eb-9af9-6eeb3bd21a38.png">
 <img width="380" alt="Screen Shot 2021-03-21 at 9 55 13 PM" src="https://user-images.githubusercontent.com/67039993/112039394-c24e6a80-8b22-11eb-9306-5a41307d4723.png">
 
