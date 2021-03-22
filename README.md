@@ -7,7 +7,7 @@ Project: Serverless TODO Application
 Data: Marth 18 2021
 ```
 ## Screenshots
-(Demo all interface in 1 images
+(Demo all interface in 1 images)
 
 ## Git repositoryes: 
 
