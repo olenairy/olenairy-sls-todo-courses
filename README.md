@@ -1,4 +1,5 @@
 
+
 # My Pretty ToDos App
 ### Capstone Project
 ```
@@ -21,7 +22,7 @@ https://github.com/olenairy/olenairy-sls-todo-courses-client.git
 ## Architecture Diagram
 (Diagram)
 ## Description
-For my Capstone Project I chose Serverless technology because that enable me to build more agile applications, for example AWS Lambda come with automatic scaling, built-in high availability.(AWS logo)
+For my Capstone Project I chose Serverless technology because that enable me to build more agile applications, for example AWS Lambda come with automatic scaling, built-in high availability.![aws](https://user-images.githubusercontent.com/67039993/112070474-7f08f180-8b4c-11eb-9152-3b1ec7e9d22a.png with:100px)
 
 My Pretty ToDos App based on code from course 4 project and have more functionality features. Frontend of the project was largely changed both visually and functionally. Added feature to edit text and Due Date, not only change the image. Added auto reforvarding to home page after edit text or upload image.
 (smal demo fragment)
