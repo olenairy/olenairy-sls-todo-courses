@@ -47,28 +47,30 @@ The application only displays list of ToDo for a logged in user. Authentication 
 
 ## Codebase
 The code is split into multiple layers separating business logic from code for DynamoDB access, file storage, and other code. Code is implemented using async/await and Promises without using callbacks.
-(smal demo fragment)
+
 ## Best practices
 All resources needed by an application are defined in the "serverless.yml" without using AWS console. 
-(smal demo fragment)
+
 Each function has its own set of permissions using different IAM roles per function.
-(smal demo fragment)
+
 App have logging statements in code with informative log parameters, which is helpful for debugging in serverless environment.
-(smal demo fragment)
+
 Distributed tracing is enabled for Lambda and API Gateway in serverless.yml file. App have implemented X-Ray for logging application level metrics.
-(smal demo fragment)
+
 ## Architecture
 Data is stored in a table with a composite key. Scan operation is not used to read data from a database.
-(smal demo fragment)
+<img width="400" alt="Screen Shot 2021-03-22 at 8 54 50 PM" src="https://user-images.githubusercontent.com/67039993/112072591-ef197680-8b50-11eb-9ef3-696ce4c90ae3.png">
+
 ## Testing 
 Link to Postman collection of tests:
 (link to git file)
 Result of tests from the collection:
 
-(smal demo fragments)
+![005-capst](https://user-images.githubusercontent.com/67039993/112073246-73202e00-8b52-11eb-84b4-c31e5dac1cef.png)
+<img width="800" alt="Postman" src="https://user-images.githubusercontent.com/67039993/112073246-73202e00-8b52-11eb-84b4-c31e5dac1cef.png">
 
 ## How to run the application
-(for front different run command)
+
 To deploy an application run the following commands:
 
 ```
