@@ -8,8 +8,6 @@ Course: Cloud Developer
 Project: Serverless TODO Application
 Data: Marth 22 2021
 ```
-## Screenshots
-![003-capst](https://user-images.githubusercontent.com/67039993/112070107-d22e7480-8b4b-11eb-90fc-8b8ddc924cce.png)
 
 ## Git repositoryes: 
 
@@ -19,12 +17,14 @@ https://github.com/olenairy/olenairy-sls-todo-courses.git
 ### Frontend:
 https://github.com/olenairy/olenairy-sls-todo-courses-client.git
 
-## Architecture Diagram
-(Diagram)
 ## Description
 For my Capstone Project I chose Serverless technology because that enable me to build more agile applications, for example AWS Lambda come with automatic scaling, built-in high availability.<img width="40" alt="AWS" src="https://user-images.githubusercontent.com/67039993/112070474-7f08f180-8b4c-11eb-9152-3b1ec7e9d22a.png">
 
-</br><b>My Pretty ToDos App</b> based on code from course 4 project and have more functionality features. Frontend of the project was largely changed both visually and functionally. Added feature to edit text and Due Date, not only change the image. Added auto reforvarding to home page after edit text or upload image.
+</br><b>My Pretty ToDos App</b> based on code from course 4 project and have more functionality features. Frontend of the project was largely changed both visually and functionally. Added feature to edit text and Due Date, not only change the image. Added redirecting to result page after edit text or upload image.
+
+## Screenshots
+![003-capst](https://user-images.githubusercontent.com/67039993/112070107-d22e7480-8b4b-11eb-90fc-8b8ddc924cce.png)
+
 
 ## Functionality
 <b>Pretty ToDos App</b> keep the ToDo list and shows them beautifully. Allows users to update images, edit text and Due Date.
@@ -63,11 +63,11 @@ Data is stored in a table with a composite key. Scan operation is not used to re
 
 ## Testing 
 Link to Postman collection of tests:
-(link to git file)
+https://github.com/olenairy/olenairy-sls-todo-courses/blob/master/Pretty_ToDo.postman_collection.json
 Result of tests from the collection:
 
-![005-capst](https://user-images.githubusercontent.com/67039993/112073246-73202e00-8b52-11eb-84b4-c31e5dac1cef.png)
-<img width="800" alt="Postman" src="https://user-images.githubusercontent.com/67039993/112073246-73202e00-8b52-11eb-84b4-c31e5dac1cef.png">
+
+<img width="900" alt="Postman" src="https://user-images.githubusercontent.com/67039993/112073246-73202e00-8b52-11eb-84b4-c31e5dac1cef.png">
 
 ## How to run the application
 
