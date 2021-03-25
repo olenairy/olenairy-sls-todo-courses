@@ -110,6 +110,51 @@
 					"response": []
 				},
 				{
+					"name": "Send email",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{authToken}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\":\"olena.ch@yahoo.com\",\n    \"name\":\"Ptetty ToDos App\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/email/send",
+							"protocol": "https",
+							"host": [
+								"{{apiId}}",
+								"execute-api",
+								"us-east-1",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"dev",
+								"email",
+								"send"
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "Update todo",
 					"protocolProfileBehavior": {
 						"disabledSystemHeaders": {}
@@ -287,7 +332,7 @@
 		},
 		{
 			"key": "authToken",
-			"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlZVUEkwS0NRam5YQXZMRGhRd09aVyJ9.eyJpc3MiOiJodHRwczovL29sZW5haXJ5LnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJnb29nbGUtb2F1dGgyfDEwMzY1MjA0NzEwNTY2ODM2MTU2MSIsImF1ZCI6IjNGMXdEa1U0RnBIU2h3TG15aWZKM1p6S29DZloxcWs5IiwiaWF0IjoxNjE2MzYyNjMwLCJleHAiOjE2MTY0MDQ2MzAsImF0X2hhc2giOiJfd0JMemRMLUFXVnN0WHFSeWVodW1BIiwibm9uY2UiOiJGT3lTZmxzdUdvQWxPaDVid3ZTemJ6ams2emVIeUlKayJ9.BJFR1HH5-wbxH503kBWqmbay9AneZrX2GUBG_z_Rs9UI_zB63t9EZo1nIrRQlqd1lm_mIFdX4t6LyCQUzmFW7ef4WbEQeCOF_uZlnKAaYbFbSoPTZgMZ3whOJhhF21kSGYcvFQmNhObIAvuK4pEzRCWxFLR4BsMWaEuRkdy8znb1a0XKOFIBf_fCEzh7txn9_V-RCqbhKR6-laFjpsvYvS56UeCm_7iOieu_rYcU3IZQl5FNYh_V81ePmF5M6vUbCRZiyWb8SWgwPOMWFL-a3jR1J-kJw_4HNKBmfwzp5NHjwW45mJNzulQ8ZFqXPECZ9EQyomQPeFhPpBLIsYyyKQ"
+			"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlZVUEkwS0NRam5YQXZMRGhRd09aVyJ9.eyJpc3MiOiJodHRwczovL29sZW5haXJ5LnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJnb29nbGUtb2F1dGgyfDEwMzY1MjA0NzEwNTY2ODM2MTU2MSIsImF1ZCI6IjNGMXdEa1U0RnBIU2h3TG15aWZKM1p6S29DZloxcWs5IiwiaWF0IjoxNjE2NTIzNzYxLCJleHAiOjE2MTY1NjU3NjEsImF0X2hhc2giOiJmSWk3YUpxaFEwc2hXMDZpTnFiWU9RIiwibm9uY2UiOiJua1ZfVlFkbElUUVRMenI1T0lwWjVBRlI5ajd1UH5aSiJ9.l2AgyEylr72go4srEU7_Ml0UGoFetyaD5QSi3qG1tTuSSWIe4kyNr4fxBcGY2LM4Ej2q1rz7nqjc6keOvksQIFq3dTTSUgdn3a4fKNUNHvpIlmk7SX0eLH9ScWlBVBpR9y_FJZ20TmIFwx6xZc5K9e2Qb0rOjUpWdHBgU5npQ7vlZXM-uZac7Ol1WbqqZZU60KltgCCzs5SQTmoFXksgznKV4p6WMdHsmvHrhHrB0uVgu2r490rclsamvpeKh_BAGMWn3arljCNAi2xCXRMBWqQim5aRAGJYdLl7XAI2ieUtYEZZW2Zv2qtHDwMTgR73I6Hjt5Pk0vZGDBCL5jOwrQ"
 		}
 	]
 }

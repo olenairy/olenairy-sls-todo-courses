@@ -59,9 +59,8 @@ export class TodoAccess {
       ExpressionAttributeValues: {
         ':userId': userId,
         ':done' :  isDone
-      //  ':done' :  false
       },
-
+      //Query for only actual, uncheck ToDos
       FilterExpression: 'attribute_not_exists(done) OR done = :done',
 
       

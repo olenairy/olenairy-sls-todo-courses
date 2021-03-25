@@ -22,8 +22,8 @@ custom:
         contentType: application/json
         schema: ${file(models/update-todo-request.json)}  
 
-#package:
-  #individually: true
+package:
+  individually: true
 
     #start: 'cross-env NODE_OPTIONS=--max-old-space-size=8192 webpack'
 
@@ -45,6 +45,8 @@ provider:
     USER_ID_INDEX: UserIdIndex
     ATTACHMENT_S3_BUCKET: picture-olenairy-${self:provider.stage}
     THUMBNAILS_S3_BUCKET: thumbnail-olenairy-${self:provider.stage}
+    EMAIL: olenairy@gmail.com
+    
 
   iamRoleStatements:
     - Effect: Allow
@@ -57,6 +59,43 @@ provider:
       
         
 functions: 
+
+  SendEmail:
+    handler: src/lambda/http/sendEmail.handler
+    events:
+      - http:
+          path: email/send
+          method: post
+          cors: true
+    iamRoleStatementsName: sndeml-lambda-role
+    iamRoleStatements:      
+      - Effect: Allow
+        Action:
+          - ses:SendEmail
+        #  - ses:SendRawEmail
+        Resource: "*"
+              
+      - Effect: Allow
+        Action:
+         
+          - dynamodb:Query
+          - dynamodb:GetItem
+              
+        Resource: arn:aws:dynamodb:${self:provider.region}:006993831752:table/${self:provider.environment.TODOS_TABLE}/index/${self:provider.environment.USER_ID_INDEX}
+      - Effect: Allow
+        Action:
+          - s3:GetObject
+        Resource: "arn:aws:s3:::${self:provider.environment.ATTACHMENT_S3_BUCKET}/*"
+      - Effect: Allow
+        Action:
+          - s3:GetObject
+        Resource: "arn:aws:s3:::${self:provider.environment.THUMBNAILS_S3_BUCKET}/*"        
+      - Effect: Allow
+        Action:
+          - xray:PutTraceSegments
+        Resource: "*"
+  
+
   Auth:
     handler: src/lambda/auth/auth0Authorizer.handler
 
@@ -91,6 +130,8 @@ functions:
         Action:
           - xray:PutTraceSegments
         Resource: "*"
+
+
 
   GetActualTodos:
     handler: src/lambda/http/getActualTodos.handler
