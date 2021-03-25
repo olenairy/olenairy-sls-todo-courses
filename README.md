@@ -6,8 +6,26 @@
 Student: Olena Chudnovets
 Course: Cloud Developer
 Project: Serverless TODO Application
-Data: Marth 22 2021
+Data: Marth 25 2021
 ```
+## Updated: 
+
+### Re: "Please work more on the backend side to include more features and services...."
+
+## Update Description:
+In my capstone project I created some new <b>Lambda</b> function like this: <b>resizeImage</b>, <b>getActualTodos</b>, <b>sendEmail</b>. 
+I created <b>NewTodoTopic SNS</b>, <b>ThumbnailsBucket</b> and have used <b>SES Sample Email Service</b>. 
+
+I want to emphasize that these resources were not in the starting code for the project or in my project on the last topic of course.  This <b>completely new functionality</b> has been added now.
+All resources are healthy and launched on AWS.
+
+<b>resizeImage</b> - read record from SNS message about create new Todo. Takes a picture from one bucket, creates a thumbnail image  and puts it in another bucket, which is created specifically for storing thumbnail images. After that the function updated DynamoDB items with new image link. 
+
+<b>sendEmail</b> - the function takes a list of tasks to be done from the database, make an email body and sends it to the email that the user entered in the form field. ..... Function used for this AWS SNS service. 
+
+<b>getActualTodos</b> - the function creates a list of things to do.  makes a database query with a filter. 
+.....
+
 
 ## Git repositoryes: 
 
