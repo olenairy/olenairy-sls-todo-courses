@@ -42,7 +42,7 @@ Unfortunatly for Free Tier AWS you can type only this email: olenairy@gmail.com 
 </br><img width="600" alt="Screen Shot 2021-03-25 at 1 26 32 AM" src="https://user-images.githubusercontent.com/67039993/112418944-39ddee80-8d09-11eb-810e-bfc8cbc7f227.png"></br> </br>
 <img width="400" alt="Screen Shot 2021-03-24 at 5 38 19 PM" src="https://user-images.githubusercontent.com/67039993/112417912-44978400-8d07-11eb-9fd8-530872ce4655.png">
 </br> </br><img width="400" alt="Screen Shot 2021-03-24 at 10 19 52 PM" src="https://user-images.githubusercontent.com/67039993/112418067-904a2d80-8d07-11eb-8c22-3cb25fe7ec83.png">
-</br> </br><img width="400" alt="Screen Shot 2021-03-24 at 10 19 52 PM" src="https://user-images.githubusercontent.com/67039993/112418067-904a2d80-8d07-11eb-8c22-3cb25fe7ec83.png">
+
 ## END Update
 
 
