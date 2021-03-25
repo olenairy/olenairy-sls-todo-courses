@@ -33,16 +33,16 @@ Unfortunatly for Free Tier AWS you can type only this email: olenairy@gmail.com 
 </br> </br><img width="900" alt="Screen Shot 2021-03-24 at 1 13 03 AM" src="https://user-images.githubusercontent.com/67039993/112417631-c1762e00-8d06-11eb-87f8-e24ca10f04d3.png">
 </br> </br><img width="600" alt="Screen Shot 2021-03-24 at 1 17 26 AM" src="https://user-images.githubusercontent.com/67039993/112417772-04380600-8d07-11eb-84ce-5ac48bf73233.png">
 </br> </br><img width="900" alt="Screen Shot 2021-03-24 at 7 03 34 PM" src="https://user-images.githubusercontent.com/67039993/112417959-58db8100-8d07-11eb-86a3-98de79e2cd3b.png">
-</br> </br><img width="635" alt="Screen Shot 2021-03-24 at 10 19 52 PM" src="https://user-images.githubusercontent.com/67039993/112418067-904a2d80-8d07-11eb-8c22-3cb25fe7ec83.png">
-</br> </br>
-3 - <b>getActualTodos</b> - the function creates a list of things to do.  Makes a DynamoDB  query with a filter. 
 
 </br> </br>
-<img width="700" alt="Screen Shot 2021-03-24 at 10 25 45 AM" src="https://user-images.githubusercontent.com/67039993/112418121-ad7efc00-8d07-11eb-9064-758263c36b3b.png">
+3 - <b>getActualTodos</b> - the function creates a list of things to do.  Makes a DynamoDB  query with a filter. 
+</br> </br><img width="400" alt="Screen Shot 2021-03-24 at 10 19 52 PM" src="https://user-images.githubusercontent.com/67039993/112418067-904a2d80-8d07-11eb-8c22-3cb25fe7ec83.png">
+</br> </br>
+<img width="400" alt="Screen Shot 2021-03-24 at 10 25 45 AM" src="https://user-images.githubusercontent.com/67039993/112418121-ad7efc00-8d07-11eb-9064-758263c36b3b.png">
 </br> </br>
 </br><img width="400" alt="Screen Shot 2021-03-25 at 1 26 32 AM" src="https://user-images.githubusercontent.com/67039993/112418944-39ddee80-8d09-11eb-810e-bfc8cbc7f227.png"></br> </br>
 <img width="400" alt="Screen Shot 2021-03-24 at 5 38 19 PM" src="https://user-images.githubusercontent.com/67039993/112417912-44978400-8d07-11eb-9fd8-530872ce4655.png">
-
+</br> </br><img width="635" alt="Screen Shot 2021-03-24 at 10 19 52 PM" src="https://user-images.githubusercontent.com/67039993/112418067-904a2d80-8d07-11eb-8c22-3cb25fe7ec83.png">
 
 ## END Update
 
