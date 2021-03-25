@@ -19,8 +19,8 @@ I created <b>NewTodoTopic SNS</b>, <b>ThumbnailsBucket</b> and have used <b>SES 
 <img width="350" alt="Screen Shot 2021-03-24 at 1 15 49 AM" src="https://user-images.githubusercontent.com/67039993/112417694-df439300-8d06-11eb-8f9c-4f5b87142197.png">
 
 I want to emphasize that these resources were not in the starting code for the project or in my project on the last topic of course.  This <b>completely new functionality</b> has been added now.
-All resources are healthy and launched on AWS.</br>
-<img width="1000" alt="Screen Shot 2021-03-25 at 1 19 03 AM" src="https://user-images.githubusercontent.com/67039993/112418444-37c76000-8d08-11eb-966f-ac245cfc6405.png"></br>
+All resources are healthy and launched on AWS.</br><&nbsp></br>
+<img width="900" alt="Screen Shot 2021-03-25 at 1 19 03 AM" src="https://user-images.githubusercontent.com/67039993/112418444-37c76000-8d08-11eb-966f-ac245cfc6405.png"></br>
 ## Lambda Description
 
 
