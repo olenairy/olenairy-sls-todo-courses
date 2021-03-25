@@ -14,7 +14,9 @@ Data: Marth 25 2021
 
 ## Update Description:
 In my capstone project I created some new <b>Lambda</b> function like this: <b>resizeImage</b>, <b>getActualTodos</b>, <b>sendEmail</b>. 
-I created <b>NewTodoTopic SNS</b>, <b>ThumbnailsBucket</b> and have used <b>SES Sample Email Service</b>. 
+I created <b>NewTodoTopic SNS</b>, <b>ThumbnailsBucket</b> and have used <b>SES Sample Email Service</b>.
+
+<img width="444" alt="Screen Shot 2021-03-24 at 1 15 49 AM" src="https://user-images.githubusercontent.com/67039993/112417694-df439300-8d06-11eb-8f9c-4f5b87142197.png">
 
 I want to emphasize that these resources were not in the starting code for the project or in my project on the last topic of course.  This <b>completely new functionality</b> has been added now.
 All resources are healthy and launched on AWS.
@@ -22,9 +24,29 @@ All resources are healthy and launched on AWS.
 <b>resizeImage</b> - read record from SNS message about create new Todo. Takes a picture from one bucket, creates a thumbnail image  and puts it in another bucket, which is created specifically for storing thumbnail images. After that the function updated DynamoDB items with new image link. 
 
 <b>sendEmail</b> - the function takes a list of tasks to be done from the database, make an email body and sends it to the email that the user entered in the form field. ..... Function used for this AWS SNS service. 
+### ! While my account is in the sandbox,app can only send mail from verified email addresses from my verified email list.
+Unfortunatly for Free Tier AWS you can type only this email: olenairy@gmail.com from my verified email list.
+<img width="900" alt="Screen Shot 2021-03-24 at 1 13 03 AM" src="https://user-images.githubusercontent.com/67039993/112417631-c1762e00-8d06-11eb-87f8-e24ca10f04d3.png">
+<img width="600" alt="Screen Shot 2021-03-24 at 1 17 26 AM" src="https://user-images.githubusercontent.com/67039993/112417772-04380600-8d07-11eb-84ce-5ac48bf73233.png">
+<img width="900" alt="Screen Shot 2021-03-24 at 7 03 34 PM" src="https://user-images.githubusercontent.com/67039993/112417959-58db8100-8d07-11eb-86a3-98de79e2cd3b.png">
+<img width="635" alt="Screen Shot 2021-03-24 at 10 19 52 PM" src="https://user-images.githubusercontent.com/67039993/112418067-904a2d80-8d07-11eb-8c22-3cb25fe7ec83.png">
 
-<b>getActualTodos</b> - the function creates a list of things to do.  makes a database query with a filter. 
+
+
+<b>getActualTodos</b> - the function creates a list of things to do.  Makes a DynamoDB  query with a filter. 
 .....
+<img width="516" alt="Screen Shot 2021-03-24 at 10 25 45 AM" src="https://user-images.githubusercontent.com/67039993/112418121-ad7efc00-8d07-11eb-9064-758263c36b3b.png">
+
+
+
+
+
+<img width="514" alt="Screen Shot 2021-03-24 at 5 38 19 PM" src="https://user-images.githubusercontent.com/67039993/112417912-44978400-8d07-11eb-9fd8-530872ce4655.png">
+
+
+
+## END Update
+
 
 
 ## Git repositoryes: 
