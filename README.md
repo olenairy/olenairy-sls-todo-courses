@@ -2,9 +2,7 @@
 
 # My Pretty ToDos App
 ### Capstone Project
-## Updated: 
 
-### Re: "Please work more on the backend side to include more features and services...."
 
 ## Update Description:
 In my capstone project I created some new <b>Lambda</b> function like this: <b>resizeImage</b>, <b>getActualTodos</b>, <b>sendEmail</b>. 
