@@ -10,11 +10,11 @@
 In my capstone project I created some new <b>Lambda</b> function like this: <b>resizeImage</b>, <b>getActualTodos</b>, <b>sendEmail</b>. 
 I created <b>NewTodoTopic SNS</b>, <b>ThumbnailsBucket</b> and have used <b>SES Sample Email Service</b>.
 </br> </br>
-<img width="350" alt="Screen Shot 2021-03-24 at 1 15 49 AM" src="https://user-images.githubusercontent.com/67039993/112417694-df439300-8d06-11eb-8f9c-4f5b87142197.png">
+
 </br> </br>
 I want to emphasize that these resources were not in the starting code for the project or in my project on the last topic of course.  This <b>completely new functionality</b> has been added now.
 All resources are healthy and launched on AWS.</br> </br>
-<img width="900" alt="Screen Shot 2021-03-25 at 1 19 03 AM" src="https://user-images.githubusercontent.com/67039993/112418444-37c76000-8d08-11eb-966f-ac245cfc6405.png"></br> </br>
+</br> </br>
 
 ## Lambda Description
 </br> </br>
@@ -24,9 +24,9 @@ All resources are healthy and launched on AWS.</br> </br>
 2 - <b>sendEmail</b> - the function takes a list of tasks to be done from the database, make an email body and sends it to the email that the user entered in the form field. ..... Function used for this AWS SNS service. 
 </br> ! While my account is in the sandbox,app can only send mail from verified email addresses from my verified email list.
 Unfortunatly for Free Tier AWS you can type only this email: olenairy@gmail.com from my verified email list.
-</br> </br><img width="900" alt="Screen Shot 2021-03-24 at 1 13 03 AM" src="https://user-images.githubusercontent.com/67039993/112417631-c1762e00-8d06-11eb-87f8-e24ca10f04d3.png">
-</br> </br><img width="600" alt="Screen Shot 2021-03-24 at 1 17 26 AM" src="https://user-images.githubusercontent.com/67039993/112417772-04380600-8d07-11eb-84ce-5ac48bf73233.png">
-</br> </br><img width="900" alt="Screen Shot 2021-03-24 at 7 03 34 PM" src="https://user-images.githubusercontent.com/67039993/112417959-58db8100-8d07-11eb-86a3-98de79e2cd3b.png">
+</br> </br>
+</br> </br>
+</br> </br>
 
 </br> </br>
 3 - <b>getActualTodos</b> - the function creates a list of things to do.  Makes a DynamoDB  query with a filter. 
