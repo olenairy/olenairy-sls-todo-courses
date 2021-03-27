@@ -91,7 +91,7 @@ Distributed tracing is enabled for Lambda and API Gateway in serverless.yml file
 
 ## Architecture
 Data is stored in a table with a composite key. Scan operation is not used to read data from a database.
-<img width="400" alt="Screen Shot 2021-03-22 at 8 54 50 PM" src="https://user-images.githubusercontent.com/67039993/112072591-ef197680-8b50-11eb-9ef3-696ce4c90ae3.png">
+
 
 ## Testing 
 Link to Postman collection of tests:
